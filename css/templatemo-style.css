@@ -90,7 +90,7 @@ a:hover {
 }
 
 .tm-brand-name {
-  font-size: 3.8rem;
+  font-size: 4.0rem;
 }
 
 .tm-brand-description {
@@ -135,8 +135,7 @@ a:hover {
   color: white;
   text-align: center;
   background-color: gray;
-  padding: 50px;
-  padding-top: 100px;
+  padding-top: 25%;
   height: 100%;
 }
 
@@ -157,7 +156,7 @@ a:hover {
 .tm-portfolio-item {
   display: flex;
   align-items: center;
-  margin-bottom: 80px;
+  margin-bottom: 50px;
 }
 
 .tm-portfolio-name {
@@ -208,7 +207,7 @@ p {
 */
 
 #tmContact {
-  padding-top: 20px;
+  padding-top: 100px;
 }
 
 .tm-contact-item {
