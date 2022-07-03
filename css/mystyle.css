@@ -1,0 +1,88 @@
+html {
+  scroll-behavior: smooth;
+}
+:root {
+  --text-color-bright: #f0f4f5;
+  --text-color-dark: #263343;
+  --back-ground-color: #ff9e49;
+  --accent-color: #f0f4f5;
+}
+* {
+  box-sizing: border-box;
+}
+.row,
+p,
+a {
+  text-decoration: none;
+  margin: 0;
+  color: var(--text-color-dark);
+}
+a:hover {
+  border-radius: 6px;
+  transform: scale(1.05);
+  background-color: var(--back-ground-color);
+  color: var(--accent-color);
+  transition: 0.5s;
+}
+#related,
+#schedule {
+  background-color: var(--bs-light);
+}
+#welcome-ttl,
+#related-ttl,
+#lecturer-ttl,
+#schedule-ttl,
+#video-ttl {
+  margin: 0, 2rem;
+  height: 50px;
+  display: grid;
+  place-items: center;
+  color: var(--text-color-dark);
+}
+#welcome-ttl {
+  border-left: 10px solid #8e44ad;
+}
+#welcome-cnt {
+  border-left: 1px solid #8e44ad;
+}
+#related-ttl {
+  border-left: 10px solid #044fff;
+}
+#related-cnt {
+  border-left: 1px solid #044fff;
+}
+#lecturer-ttl {
+  border-left: 10px solid #ff00fa;
+}
+#lecturer-cnt {
+  border-left: 1px solid #ff00fa;
+}
+#schedule-ttl {
+  border-left: 10px solid #0dcaf0;
+}
+#schedule-cnt {
+  border-left: 1px solid #0dcaf0;
+}
+#video-ttl {
+  border-left: 10px solid #ff9e49;
+}
+@media (max-width: 768px) {
+  #video-cnt {
+    border-left: 1px solid #ff9e49;
+  }
+}
+
+#site1 {
+  color: magenta;
+}
+#site2 {
+  color: #044fff;
+}
+#site3 {
+  color: green;
+}
+#site1:hover,
+#site2:hover,
+#site3:hover {
+  color: var(--text-color-bright);
+}
